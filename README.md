@@ -84,12 +84,13 @@ EPOCHS = 100
 ## 📁 File Structure
 
 ```
+├── data/anomaly_dataset/
 ├── scripts/
 |   ├── main.py              # Entry point and configuration
 |   ├── trainer.py           # Training loop and model management
 |   ├── gas.py               # Global Anomaly Synthesis implementation
 |   ├── models.py            # Neural network architectures
-|   ├── dataset.py           # Data loading and preprocessing
+|   ├── datloader.py          # Data loading and preprocessing
 |   ├── visualize.py         # Plotting and visualization
 ├── results/                 # Output directory for models and plots
 ```
