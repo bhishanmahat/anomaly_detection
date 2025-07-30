@@ -33,7 +33,7 @@ cd anomaly_detection
 conda create -n env_anom-detect python=3.13
 conda activate env_anom-detect
 
-# Install CUDA‑enabled PyTorch (for NVIDIA GPUs)
+# Install PyTorch based on your hardware; for NVIDIA CUDA 12.8 on Linux, use 
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 
 # Install the packages
