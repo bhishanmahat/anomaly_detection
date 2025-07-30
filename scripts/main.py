@@ -1,10 +1,4 @@
 import os
-import argparse
-
-# --- GPU Configuration ---
-GPU_ID = "5"
-os.environ['CUDA_VISIBLE_DEVICES'] = GPU_ID
-
 import torch
 
 # Import modules 
