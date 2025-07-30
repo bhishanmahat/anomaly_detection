@@ -23,18 +23,15 @@ This project implements an anomaly detection system for industrial quality contr
 
 ## 🚀 How to Run
 
-### Prerequisites
-```bash
-# Create & activate a virtualenv
-conda create -n env_anom-detect python=3.13
-conda activate anom_detect
-```
-
 ### Installation
 ```bash
 # Clone the repo
 git clone https://github.com/bhishanmahat/anomaly_detection.git
 cd anomaly_detection
+
+# Create & activate a virtualenv
+conda create -n env_anom-detect python=3.13
+conda activate anom_detect
 
 # Install CUDA‑enabled PyTorch (for NVIDIA GPUs)
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
