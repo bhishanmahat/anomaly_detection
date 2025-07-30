@@ -90,9 +90,10 @@ EPOCHS = 100
 |   ├── trainer.py           # Training loop and model management
 |   ├── gas.py               # Global Anomaly Synthesis implementation
 |   ├── models.py            # Neural network architectures
-|   ├── datloader.py          # Data loading and preprocessing
+|   ├── datloader.py         # Data loading and preprocessing
 |   ├── visualize.py         # Plotting and visualization
 ├── results/                 # Output directory for models and plots
+├── requirements.txt         # Required packages
 ```
 
 ## 🔧 Model Details
