@@ -31,7 +31,7 @@ cd anomaly_detection
 
 # Create & activate a virtualenv
 conda create -n env_anom-detect python=3.13
-conda activate env_anom_detect
+conda activate env_anom-detect
 
 # Install CUDA‑enabled PyTorch (for NVIDIA GPUs)
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
